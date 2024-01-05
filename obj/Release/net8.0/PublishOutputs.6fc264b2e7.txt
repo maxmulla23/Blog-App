@@ -1,0 +1,7 @@
+/home/maxmulla/Documents/BlogApp/bin/Release/net8.0/publish/BlogApp
+/home/maxmulla/Documents/BlogApp/bin/Release/net8.0/publish/appsettings.Development.json
+/home/maxmulla/Documents/BlogApp/bin/Release/net8.0/publish/appsettings.json
+/home/maxmulla/Documents/BlogApp/bin/Release/net8.0/publish/BlogApp.dll
+/home/maxmulla/Documents/BlogApp/bin/Release/net8.0/publish/BlogApp.deps.json
+/home/maxmulla/Documents/BlogApp/bin/Release/net8.0/publish/BlogApp.runtimeconfig.json
+/home/maxmulla/Documents/BlogApp/bin/Release/net8.0/publish/BlogApp.pdb
