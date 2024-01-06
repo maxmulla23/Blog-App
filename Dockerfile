@@ -12,4 +12,4 @@ RUN dotnet publish -c Release -o out
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /BlogApp
 COPY --from=build-env /BlogApp/out .
-ENTRYPOINT [ "dotnet", "Dotnet.Docker.dll" ]
+ENTRYPOINT [ "dotnet", "BlogApp.dll" ]
