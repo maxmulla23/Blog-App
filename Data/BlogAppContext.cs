@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using BlogApp.Models;
-
+using Microsoft.Data.SqlClient;
 
 namespace BlogApp.Data
 {
