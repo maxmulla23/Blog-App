@@ -18,8 +18,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/maxmulla/Documents/BlogApp
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/maxmulla/Documents/BlogApp/Views/Blog/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZy9DcmVhdGUuY3NodG1s
+[/home/maxmulla/Documents/BlogApp/Views/BlogPost/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZ1Bvc3QvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/maxmulla/Documents/BlogApp/Views/BlogPost/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZ1Bvc3QvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/maxmulla/Documents/BlogApp/Views/Home/Index.cshtml]
