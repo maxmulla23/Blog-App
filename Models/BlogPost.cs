@@ -5,6 +5,7 @@ namespace BlogApp.Models;
 
 public class BlogPost
 {
+    [Key]
     public int Id { get; set; }
     public string? Content { get; set; }
 
