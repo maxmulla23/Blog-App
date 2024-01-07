@@ -35,7 +35,7 @@ public class BlogPostController : Controller
         if (ModelState.IsValid)
         {
             _context.Add(blogPost);
-            blogPost.CreationTime = DateTime.Now;
+            //blogPost.CreationTime = DateTime.Now;
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
