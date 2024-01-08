@@ -4,10 +4,11 @@ using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using BlogApp.Models;
 using Microsoft.Data.SqlClient;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace BlogApp.Data
 {
-    public class BlogAppContext : DbContext
+    public class BlogAppContext : IdentityDbContext<AppUser>
     {
         protected readonly IConfiguration Configuration;
         public BlogAppContext (IConfiguration configuration)

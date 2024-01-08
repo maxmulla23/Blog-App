@@ -135,3 +135,4 @@
 /home/maxmulla/Documents/BlogApp/obj/Debug/net8.0/BlogApp.pdb
 /home/maxmulla/Documents/BlogApp/obj/Debug/net8.0/BlogApp.genruntimeconfig.cache
 /home/maxmulla/Documents/BlogApp/obj/Debug/net8.0/ref/BlogApp.dll
+/home/maxmulla/Documents/BlogApp/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

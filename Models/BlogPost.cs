@@ -1,5 +1,6 @@
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.Drawing;
 
 namespace BlogApp.Models;
 
@@ -12,4 +13,10 @@ public class BlogPost
     [DataType(DataType.Date)]
     public DateTime CreationTime { get; set; }
     public virtual ICollection<Comment>? Comments {get; set;}
+
+    public BlogPost()
+    {
+        CreationTime = DateTime.Now;
+    }    
 }
+
