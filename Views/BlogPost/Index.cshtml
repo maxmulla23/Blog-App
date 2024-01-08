@@ -1,11 +1,33 @@
-@model IEnumerable<BlogApp.Models.BlogPost>
+@model List<BlogApp.Models.BlogPost>
 
 @{
     ViewData["Title"] = "Index";
 }
+<div class="home">
+
+
 <h1>Home</h1>
 <p>
     <button style="background-color: #38B4D0; border: none; color: white; text-align:center; font-size: 16px">
         <a class="btn btn-default" asp-action="Create">Create New Blog</a>
     </button>
 </p>
+
+<h2>Blogs</h2>
+
+<ul class="blog-cards" style="display: flex; flex-wrap: wrap; gap: 10px">
+    @foreach (var item in Model)
+    {
+        <li class="card" style="border: 2px solid; overflow:hidden; background-color: #EEF1F6">
+            <strong>
+                @item.CreationTime
+            </strong>
+            <br />
+            <span>
+                @item.Content
+            </span>
+        </li>
+    }
+</ul>
+
+</div>

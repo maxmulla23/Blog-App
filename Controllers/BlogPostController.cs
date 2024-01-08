@@ -19,9 +19,10 @@ public class BlogPostController : Controller
         _context = context;
     }
     //Get all Blogs
-    public async Task<IActionResult> Index()
+    public IActionResult Index()
     {
-        return View(await _context.BlogPosts.ToListAsync());
+        var blogPost = _context.BlogPosts.ToList();
+        return View(blogPost);
     }
 
     //get blog details
