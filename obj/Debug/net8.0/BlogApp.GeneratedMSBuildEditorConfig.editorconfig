@@ -22,6 +22,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZ1Bvc3QvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/maxmulla/Documents/BlogApp/Views/BlogPost/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZ1Bvc3QvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/maxmulla/Documents/BlogApp/Views/BlogPost/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZ1Bvc3QvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
