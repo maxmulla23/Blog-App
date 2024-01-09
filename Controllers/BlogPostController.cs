@@ -76,7 +76,7 @@ public class BlogPostController : Controller
     [HttpPut]
     [ValidateAntiForgeryToken]
 
-    public async Task<IActionResult> Edit (int id, [Bind("id,CreationTime, Content")] BlogPost blogPost)
+    public async Task<IActionResult> Edit (int id, [Bind("id, Content")] BlogPost blogPost)
     {
         if (id != blogPost.Id)
         {
