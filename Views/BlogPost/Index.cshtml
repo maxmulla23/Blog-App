@@ -15,17 +15,21 @@
 
 <h2>Blogs</h2>
 
-<ul class="blog-cards" style="display: flex; flex-wrap: wrap; gap: 10px">
+<ul class="blog-cards" style="display: flex; flex-direction:column; gap: 10px">
     @foreach (var item in Model)
     {
-        <li class="card" style="border: 2px solid; overflow:hidden; background-color: #FFF7EC">
+        <li class="card" style="border: 4px; overflow:hidden; background-color: #D3E1E2;width: 700px;height:300px; box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);">
             <strong>
                 @item.CreationTime
             </strong>
+            <a class="btn btn-default" asp-action="Details" asp-route-id="@item.Id">Read More</a>
             <br />
-            <span>
-                @item.Content
-            </span>
+            <div class="body">
+                <span>@item.Content</span>
+            </div>
+            <div>
+                
+            </div>
         </li>
     }
 </ul>
